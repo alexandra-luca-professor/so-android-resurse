@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/snake_title"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:text="@string/menu_description"
+            android:textSize="18sp" />
+
+        <!-- TODO: adauga un Button:
+             - ID: buttonStart (@+id/buttonStart);
+             - latime match_parent, inaltime wrap_content;
+             - marginTop 32dp;
+             - textul din resursa start_game (@string/start_game). -->
+
+        <!-- TODO (tema): adauga un al doilea Button:
+             - ID: buttonInstructions (@+id/buttonInstructions);
+             - latime match_parent, inaltime wrap_content;
+             - marginTop 16dp;
+             - textul din resursa open_instructions (@string/open_instructions). -->
+    </LinearLayout>
+</LinearLayout>
