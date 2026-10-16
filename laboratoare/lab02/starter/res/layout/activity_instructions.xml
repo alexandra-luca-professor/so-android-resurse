@@ -3,24 +3,34 @@
     android:id="@+id/instructionsRoot"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="24dp">
+    android:orientation="vertical">
 
-    <!-- TODO 1: adauga un TextView pentru titlu:
-         - latime match_parent, inaltime wrap_content;
-         - textul din resursa instructions_title (@string/instructions_title);
-         - textSize 28sp, textStyle bold. -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
 
-    <!-- TODO 2: adauga un TextView pentru reguli:
-         - latime match_parent, inaltime wrap_content;
-         - marginTop 16dp;
-         - textul din resursa instructions_text (@string/instructions_text);
-         - textSize 18sp. -->
+        <!-- TODO 1: adauga un TextView pentru titlu:
+             - latime match_parent, inaltime wrap_content;
+             - gravity center;
+             - textul din resursa instructions_title (@string/instructions_title);
+             - textSize 28sp, textStyle bold. -->
 
-    <!-- TODO 3: adauga un Button de revenire:
-         - ID: buttonInstructionsBack (@+id/buttonInstructionsBack);
-         - latime match_parent, inaltime wrap_content;
-         - marginTop 32dp;
-         - textul din resursa back_to_menu (@string/back_to_menu). -->
+        <!-- TODO 2: adauga un TextView pentru reguli:
+             - latime match_parent, inaltime wrap_content;
+             - marginTop 16dp;
+             - lineSpacingExtra 4dp;
+             - textul din resursa instructions_text (@string/instructions_text);
+             - textSize 18sp. -->
+
+        <!-- TODO 3: adauga un Button de revenire:
+             - ID: buttonInstructionsBack (@+id/buttonInstructionsBack);
+             - latime match_parent, inaltime wrap_content;
+             - marginTop 32dp;
+             - textul din resursa back_to_menu (@string/back_to_menu). -->
+
+    </LinearLayout>
 
 </LinearLayout>
