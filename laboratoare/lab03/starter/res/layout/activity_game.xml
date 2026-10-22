@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gameRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/game_title"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <!-- TODO 1: adauga tabla jocului, intre titlu si buton.
+             Tag-ul este numele complet al clasei, cu pachetul vostru:
+                 <ro.so.android.numeprenume.BoardView ... />
+             Atribute:
+             - ID: boardView (@+id/boardView);
+             - latime match_parent;
+             - inaltime 0dp si layout_weight 1, ca tabla sa ocupe tot spatiul ramas;
+             - marginTop 16dp. -->
+
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/back_to_menu" />
+
+    </LinearLayout>
+</LinearLayout>
