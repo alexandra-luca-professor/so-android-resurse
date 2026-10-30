@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="direction_up">Sus</string>
+    <string name="direction_down">Jos</string>
+    <string name="direction_left">Stânga</string>
+    <string name="direction_right">Dreapta</string>
+
+    <string name="arrow_up">▲</string>
+    <string name="arrow_down">▼</string>
+    <string name="arrow_left">◀</string>
+    <string name="arrow_right">▶</string>
+
+    <string name="speed_slow">Lent</string>
+    <string name="speed_fast">Rapid</string>
+</resources>

@@ -20,6 +20,15 @@ Resurse pentru laboratoarele de Sisteme de Operare — Android (Java, XML, Git, 
 - [Laborator 3 — Tabla Snake (PDF)](laboratoare/lab03/Lab03_Tabla_Snake.pdf) · [descarcă PPTX](https://github.com/alexandra-luca-professor/so-android-resurse/raw/main/laboratoare/lab03/Lab03_Tabla_Snake.pptx)
 - [Laborator 3 — starter: tabla Snake](laboratoare/lab03/starter/README.md)
 
+## Laborator 4
+
+- [Laborator 4 — Input și actualizarea stării (PDF)](laboratoare/lab04/Lab04_Input_si_actualizarea_starii.pdf) · [descarcă PPTX](https://github.com/alexandra-luca-professor/so-android-resurse/raw/main/laboratoare/lab04/Lab04_Input_si_actualizarea_starii.pptx)
+- [Laborator 4 — starter: input și mișcarea șarpelui](laboratoare/lab04/starter/README.md)
+
+## Proiect
+
+- [Proiectul individual: jocuri și cerințe (PDF)](proiect/Proiect_jocuri_si_cerinte.pdf)
+
 ## Suport
 
 - [Git și GitHub (PDF)](suport/git-si-github/Git_si_GitHub.pdf) · [descarcă PPTX](https://github.com/alexandra-luca-professor/so-android-resurse/raw/main/suport/git-si-github/Git_si_GitHub.pptx)

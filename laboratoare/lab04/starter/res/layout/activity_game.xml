@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gameRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/game_title"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <ro.so.android.numeprenume.BoardView
+            android:id="@+id/boardView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonSlow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                android:text="@string/speed_slow" />
+
+            <Button
+                android:id="@+id/buttonFast"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:text="@string/speed_fast" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonUp"
+                android:layout_width="72dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/direction_up"
+                android:text="@string/arrow_up" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonLeft"
+                    android:layout_width="72dp"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/direction_left"
+                    android:text="@string/arrow_left" />
+
+                <Space
+                    android:layout_width="72dp"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/buttonRight"
+                    android:layout_width="72dp"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/direction_right"
+                    android:text="@string/arrow_right" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buttonDown"
+                android:layout_width="72dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/direction_down"
+                android:text="@string/arrow_down" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/back_to_menu" />
+
+    </LinearLayout>
+</LinearLayout>
