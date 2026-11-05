@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Culorile textelor din dialogul de final. Puneti fisierul in res/values, langa colors.xml. -->
+<resources>
+    <color name="snake_primary">#FF1B4332</color>
+    <color name="snake_accent">#FF52B788</color>
+    <color name="snake_text_muted">#FF5C6F64</color>
+</resources>

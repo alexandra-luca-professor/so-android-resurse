@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Textele noi pentru Laboratorul 5. Puneti fisierul in res/values, langa strings.xml. -->
+<resources>
+    <!-- Scorul de sub titlu. %1$d este locul in care se pune numarul. -->
+    <string name="score">Scor: %1$d</string>
+    <string name="game_over">Ai pierdut! Scor: %1$d</string>
+    <string name="game_won">Ai câștigat! Scor: %1$d</string>
+
+    <!-- Dialogul de final -->
+    <string name="restart">Restart</string>
+    <string name="menu_short">Meniu</string>
+    <string name="game_over_title">Game Over</string>
+    <string name="won_title">Ai câștigat!</string>
+    <string name="game_over_reason_lost">Ai atins un perete, un obstacol sau propriul corp.</string>
+    <string name="game_over_reason_won">Ai umplut toată tabla. Nu mai există nicio celulă liberă.</string>
+    <string name="points_label">puncte</string>
+</resources>

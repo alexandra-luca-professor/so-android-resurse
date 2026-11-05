@@ -25,6 +25,11 @@ Resurse pentru laboratoarele de Sisteme de Operare — Android (Java, XML, Git, 
 - [Laborator 4 — Input și actualizarea stării (PDF)](laboratoare/lab04/Lab04_Input_si_actualizarea_starii.pdf) · [descarcă PPTX](https://github.com/alexandra-luca-professor/so-android-resurse/raw/main/laboratoare/lab04/Lab04_Input_si_actualizarea_starii.pptx)
 - [Laborator 4 — starter: input și mișcarea șarpelui](laboratoare/lab04/starter/README.md)
 
+## Laborator 5
+
+- [Laborator 5 — Reguli și prima partidă (PDF)](laboratoare/lab05/Lab05_Reguli_si_prima_partida.pdf) · [descarcă PPTX](https://github.com/alexandra-luca-professor/so-android-resurse/raw/main/laboratoare/lab05/Lab05_Reguli_si_prima_partida.pptx)
+- [Laborator 5 — ce adăugați în cod](laboratoare/lab05/starter/README.md)
+
 ## Proiect
 
 - [Proiectul individual: jocuri și cerințe (PDF)](proiect/Proiect_jocuri_si_cerinte.pdf)

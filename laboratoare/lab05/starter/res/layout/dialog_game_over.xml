@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Laboratorul 5: continutul dialogului de final. Il folosim in GameActivity, cu inflate(). -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingStart="24dp"
+    android:paddingTop="28dp"
+    android:paddingEnd="24dp"
+    android:paddingBottom="20dp">
+
+    <!-- Titlul: Game Over sau Ai castigat! -->
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/snake_primary"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Motivul finalului -->
+    <TextView
+        android:id="@+id/dialogSubtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:textColor="@color/snake_text_muted"
+        android:textSize="14sp" />
+
+    <!-- Scorul, scris mare -->
+    <TextView
+        android:id="@+id/dialogScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/snake_accent"
+        android:textSize="52sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/points_label"
+        android:textColor="@color/snake_text_muted"
+        android:textSize="13sp" />
+
+    <!-- Butoanele dialogului, unul langa altul, la fel de late -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dialogButtonMenu"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:text="@string/menu_short" />
+
+        <Button
+            android:id="@+id/dialogButtonRestart"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:text="@string/restart" />
+
+    </LinearLayout>
+
+</LinearLayout>
